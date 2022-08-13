@@ -1,0 +1,323 @@
+@media(max-width:780px){
+    .aside{
+        display: none;
+    }
+
+.responsive-header {
+  opacity: 1;
+}
+
+    .main-container {
+        width: 100%;
+    }
+
+    .main-img {
+        width: 100%;
+        position: relative;
+    }
+
+    .main-img img {
+        height: 450px;
+    }
+
+    .main-title {
+        position: absolute;
+        top: 8%;
+        left: 5%;
+        color: #fff;
+    }
+  
+    .main-title h1 {
+    font-size:35px;
+    font-family:sans-serif;
+    }
+
+    .main-title h3 {
+        font-size: 18px;
+        margin-top: -15px;
+   }
+
+   .main-schedule {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    background-color: #fff;
+    opacity: .5;
+    padding: 10px;
+    text-align: center;
+    height: 220px;
+    font-size: 14px;
+   }
+
+   .schedule {
+    margin: 0 auto;
+   }
+
+  .title {
+    font-size: 16px;
+  }
+      
+      .date {
+        font-size: 14px;
+        
+      }
+      
+      .sub-title,
+      .sub-title2 {
+        font-size: 12px;
+      }
+
+      main {
+        width: 100%;
+    }
+
+    .about-box:nth-child(2n+1) { 
+        flex-direction: column;
+        display: flex;
+        align-items: center; 
+      }         
+      .about-box:nth-child(2n) { 
+        flex-direction: column;
+        display: flex;
+        align-items: center; 
+      } 
+
+      .section-header {
+        width: 95%;
+      }
+
+    .about-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+      }
+      
+      .about-img {
+        width: 100%;
+      }
+
+      .about-img img {
+        width: 95%;
+      }
+      
+      .about-message {
+        width: 95%;
+      }
+
+      .about-title {
+        width: 95%;
+      }
+
+      .movie-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        padding-top: 0;
+      }
+
+      .movie-box h3 {
+        width: 90%;
+        margin-left: 0;
+      }
+
+      .youtube{
+        width: 100%;
+        flex-direction: column;
+        margin-top: -30px;
+      }
+      
+      .movie {
+        width: 95%;
+        position: relative;
+        margin: 0 auto;
+      }
+      
+      .movie iframe {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      .movie-title {
+        font-size: 22px;
+        position: absolute;
+        top: 72%;
+        left: 14%;
+      }
+
+      .members{
+        margin-left: 0;
+      }
+
+      .roster-container {
+        width: 100%;
+      }
+
+      .roster-title {
+        top: 35%;
+        left: 5%;
+        font-size: 24px;
+      }
+      
+      .roster-title p {
+        font-size: 19px;
+      }
+
+      .roster-header img {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+      }
+
+      .member {
+        width: 100%;
+      }
+
+#gallary {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper img {
+  width: 100%;
+  height: auto;
+}
+
+.result-box {
+  width: 95%;
+}
+
+.box {
+  height: auto;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+  border-top: 1px solid rgb(224,224,224);
+}
+
+.date {
+  flex: 0 0 27%;
+}
+
+.date p {
+  font-size: 9px;
+  padding: 0 0 0 5px;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+.vs {
+  flex: 0 0 41%;
+}
+
+.vs p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+  line-height: 60px;
+}
+
+.acheve {
+  flex: 1 1 24%;
+}
+
+.acheve  p{
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 0 4px 0 0;
+  line-height: 60px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.w {
+  padding: 2px;
+  font-size: 14px;
+}
+
+.l {
+  padding: 2px 6px;
+  font-size: 14px;
+}
+
+.video {
+  border-top: 1px solid rgb(224,224,224);
+  width:100%;
+  height: 60px;
+}
+
+.video p {
+  margin: 0 auto;
+  height: 30px;
+  width: 90%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 13px;
+}
+
+.game {
+  padding-right: 5px;
+}
+
+#access {
+  width: 100%;
+}
+
+.access-flex {
+  flex-direction: column;
+}
+
+.access-box {
+  width: 90%;
+  margin: 0 auto; 
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.access-box img {
+  width: 95%;
+  height: auto;
+}
+
+iframe {
+  width: 95%;
+  height: 300p;
+}
+
+#contact {
+  width: 100%;
+}
+
+.contact-comment {
+  width: 80%;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  margin-top: -20px;
+  height: 60px;
+  line-height: 60px;
+}
+
+#page_top a::before {
+  right: -30px;
+}
+
+#page_top a::after{
+  right: -30px;
+}
+      
+}
